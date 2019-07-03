@@ -19,7 +19,11 @@ namespace HelloDotNetSourceControl
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("hello world!");
+            DisplayGreeting();
+        }
+        static void DisplayGreeting()
+        {
+            MessageBox.Show("hello world!");
         }
     }
 }
